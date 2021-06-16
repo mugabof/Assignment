@@ -2,9 +2,12 @@
   font-family: "Kumbh ";
   src: url("https://fonts.google.com/specimen/Kumbh+Sans");
 }
-body{
-  background: hsl(185, 75%, 39%)
-}
+  
+  body{
+    background: hsl(185, 75%, 39%)
+  }
+
+
 .centered{
   position: absolute;
   margin: -25px 0 0 -25px;
@@ -15,6 +18,7 @@ body{
   justify-content: center;
   position: absolute;
   align-content: center;
+  z-index: 1;
 }
 .card{
   height: 420px;
@@ -33,6 +37,7 @@ body{
   flex-direction: "column";
   position: absolute;
   display: flex;
+  margin-top:-20px
 }
 .followers{
    padding: 10px;
@@ -79,8 +84,16 @@ h2{
 
 hr{
   width: 141%;
-
   margin-left: -105px;
-  
+}
+p{
+  color:hsl(0, 0%, 59%)
+}
+.city{
+    text-align: center;
+    margin-left:-140px;
+  }
 
+.number{
+  color:hsl(0, 0%, 59%)
 }
